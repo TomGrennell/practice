@@ -1,0 +1,7 @@
+pyg = "ay"
+
+original = raw_input("Enter a word here: ")
+original = original.lower()
+new_word = original[1:len(original)]
+
+print new_word + original[0] + pyg
